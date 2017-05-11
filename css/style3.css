@@ -1,0 +1,251 @@
+h4, h5, h6,
+h1, h2, h3 {margin-top: 0;}
+ul, ol {margin: 0;}
+p {margin: 0;}
+html, body{
+font-family: 'Open Sans', sans-serif;
+   font-size: 100%;
+   background:#fff; 
+}
+body a{
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Animation effects
+/*-----------------------------------------------------------------------------------*/
+
+/*--contact start here--*/
+.contact {
+	text-align: center;
+	background: url(../img/4.jpeg)no-repeat;
+	background-size: cover;
+	min-height: 530px;
+}
+.contact-bg {
+	background:rgba(77, 77, 77, 0.69);
+	min-height: 530px;
+	padding: 50px 0px;
+}
+.contact-top h3 {
+	font-size: 30px;
+	font-weight: 500;
+	color: #fff;
+	margin:0px 0px 18px 0px;
+	font-family: 'Roboto', sans-serif;
+}
+.contact-top p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 1px solid;
+  padding: 0em 0em 1em 0em;
+  width: 50%;
+  margin: 0 auto;
+}
+.contact-top span.con-line {
+	background: url(../images/con-line.png)no-repeat;
+	width: 490px;
+	height: 1px;
+	display: inline-block;
+}
+.contact-bottom {
+	padding: 35px 0px 0px 0px;
+}
+.contact-bottom input[type="text"] {
+  outline: none;
+  font-size: 17px;
+  font-weight: 400;
+  color: #999;
+  padding: 15px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  width: 32%;
+  border: none;
+  background: #fff;
+  margin: 0px 18px 10px 0px;
+}
+.contact-bottom  input.no-mar {
+  margin: 0px;
+}
+.contact-bottom textarea {
+	font-size: 17px;
+	font-weight: 400;
+	color: #999;
+	width: 100%;
+	margin: 10px 0px 15px 0px;
+	padding: 15px;
+	background:#fff;
+	outline: none;
+	resize: none;  
+	border:none;
+	height: 16em;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+.con-send {
+	text-align: right;
+}
+.con-send input[type="submit"] {
+	font-size: 17px;
+	font-weight: 400;
+	color: #999;
+	background: #fff;
+	border: none;
+	outline: none;
+	padding: 12px 80px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.con-send input[type="submit"]:hover {
+	background: maroon;
+	color:#fff;
+	transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+@media(max-width:1024px){
+.contact-bottom input[type="text"] {
+  width: 31.7%;	
+}
+}
+@media(max-width:768px){
+.contact-bottom input[type="text"] {
+	width: 31%;	
+	padding: 10px;
+}
+.contact-top h3 {
+	font-size: 25px;
+}
+.contact-bottom {
+	padding: 0px 0px 0px 0px;
+}
+.contact-bg {
+	padding: 30px 0px;
+}
+.contact-top p {
+  font-size: 16px;
+  margin: 0em auto 3em;
+}
+.contact-bottom textarea {
+  height: 12em;
+}
+.con-send input[type="submit"] {
+  padding: 9px 80px;
+}
+}
+@media(max-width:640px){
+.contact-bottom input[type="text"] {
+  width: 31%;
+  font-size: 13.3px;
+  padding: 7px;
+  margin: 0px 15px 10px 0px;
+}
+.contact-bottom input.no-mar {
+  margin: 0px;
+}
+.contact-top h3 {
+  font-size: 23px;
+}
+.contact-top p {
+  font-size: 13px;
+  width: 75%;
+}
+.contact-bottom textarea {
+  height: 10em;
+  font-size: 13px;
+  margin: 1px 0px 5px 0px;
+}
+.con-send input[type="submit"] {
+  padding: 7px 60px;
+  font-size: 13px;
+}
+.contact-bg {
+  min-height: 390px;
+}
+.contact {
+  min-height: 390px;
+}
+}
+@media(max-width:480px){
+.contact-top h3 {
+	font-size: 20px;
+}
+.contact-top p {
+	font-size: 13px;
+	margin: 0em auto 2em;
+}	
+.contact-top span.con-line {
+	width: 350px;
+	margin: 10px auto 20px;
+}
+.contact-bottom input[type="text"] {
+	width: 100%;
+	margin: 5px 0px 5px 0px;
+}
+.contact-bottom textarea {
+	font-size: 13px;
+	margin: 5px 0px;
+	padding: 6px;
+	height: 10em;
+}
+.con-send input[type="submit"] {
+	font-size: 12px;
+	padding: 8px 30px;
+}
+.contact-bg {
+	min-height: 450px;
+}
+.contact {
+	min-height: 450px;
+}
+}
+@media(max-width:320px){
+.contact-top span.con-line {
+	width: 230px;
+}	
+.contact-bg {
+	min-height: 390px;
+}
+.contact {
+	min-height: 390px;
+}
+.contact-top span.con-line {
+	margin: 10px auto 12px;
+}
+.contact-bottom input[type="text"] {
+	width: 100%;
+	padding: 8px 10px;
+}
+.contact-bottom textarea {
+	height: 8em;
+}
+.contact-bg {
+	padding: 20px 0px 10px 0px;
+}
+.contact-top p {
+  font-size: 11px;
+  width: 100%;
+  margin: 0em auto 2em;
+}
+.con-send input[type="submit"] {
+  font-size: 11px;
+  padding: 6px 30px;
+}
+.contact-top h3 {
+  margin: 0px 0px 5px 0px;
+}
+}
+/*--contact end here--*/
